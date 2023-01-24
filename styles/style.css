@@ -1,0 +1,27 @@
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.slider-1{
+    background-image: url(../images/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.slider-2{
+    background-image: url(../images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.slider-3{
+    background-image: url(../images/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}

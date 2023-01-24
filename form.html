@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/practice.css">
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+   <h2>This is form</h2>
+   <form action="">
+       <label for="name">your name
+          <input id="name" type="text" placeholder="your name">
+       </label>
+      
+       <label for="email">your email
+           <input id="email" type="text" placeholder="your email">
+       </label>
+       <label for="password">your password
+           <input id="password" type="password" placeholder="your password">
+       </label>
+       <label for="phone">your number
+           <input id="phone" type="number" placeholder="your phone number">
+       </label>
+       <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pitha" id="coconut">
+                coconut
+            </label>
+       </fieldset>
+       <fieldset>
+            <legend>Select one or more Vortas</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="pitha" id="sorisa">
+                sorisa
+            </label>
+            <label for="sutki">
+                <input type="checkbox" name="pitha" id="sutki">
+                sutki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="pitha" id="dal">
+                dal
+            </label>
+       </fieldset>
+       <fieldset>
+           <legend>Special struction</legend>
+           <textarea name="" id="" cols="60" rows="3"></textarea>
+       </fieldset>
+       <input type="reset" value="reset">
+       <input type="submit" value="submit">
+   </form>
+</body>
+</html>
